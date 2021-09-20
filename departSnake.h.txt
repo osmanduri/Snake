@@ -1,0 +1,4 @@
+void init_snake(SDL_Surface* snake[5]);
+void init_position_snake(SDL_Rect position_snake[]);
+void couleur_snake(SDL_Surface* snake[5], SDL_Surface* screen);
+void blit_snake(SDL_Surface* snake[5], SDL_Rect position_snake[100], SDL_Surface* screen);
